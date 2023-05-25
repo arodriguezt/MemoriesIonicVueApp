@@ -1,0 +1,7 @@
+{
+  "name": "ionicSecondProject",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
