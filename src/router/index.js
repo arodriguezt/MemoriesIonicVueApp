@@ -1,15 +1,26 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import HomePage from '../views/HomePage.vue'
-
+import MemoriesPage from '../views/MemoriesPage.vue'
 const routes = [
   {
     path: '/',
-    redirect: '/home'
+    redirect: '/memories'
   },
   {
-    path: '/home',
-    name: 'Home',
-    component: HomePage
+    path:'/memories',
+    component: MemoriesPage
+
+  },
+  {
+    path:'/memories/:id',
+    //() => import('../views/DetailsPage.vue') LAZY LOAD nomes el carregarem si realment el necessitem
+    component: () => import('../views/DetailsPage.vue')
+
+  },
+  {
+    path:'/memories/add',
+    //() => import('../views/DetailsPage.vue') LAZY LOAD nomes el carregarem si realment el necessitem
+    component: () => import('../views/AddMemoryPage.vue')
+
   }
 ]
 

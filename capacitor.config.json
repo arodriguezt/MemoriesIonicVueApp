@@ -1,0 +1,13 @@
+{
+    "appId": "com.arodtu.vue.iconic",
+    "appName": "Vue Memories",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "dist",
+    "plugins": {
+      "SplashScreen": {
+        "launchShowDuration": 0
+      }
+    },
+    "cordova": {}
+  }

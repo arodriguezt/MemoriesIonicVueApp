@@ -1,9 +1,9 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'ionicSecondProject',
-  webDir: 'dist',
+  appId: 'com.arodtu.vue.iconic',
+  appName: 'Vue Memories',
+  webDir: 'public',
   server: {
     androidScheme: 'https'
   }
